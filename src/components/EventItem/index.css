@@ -1,0 +1,52 @@
+/* Write your CSS here */
+.event-item {
+  list-style: none;
+  margin-right: 25px;
+  margin-bottom: 35px;
+  width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .event-item {
+    width: 42%;
+  }
+}
+
+.event-button {
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0px;
+}
+
+.event-image {
+  width: 100%;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  max-width: 450px;
+}
+
+.active {
+  border: 2px solid #2dd4bf;
+  border-radius: 12px;
+}
+
+.name {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 550;
+  line-height: 1.2;
+  margin: 0px;
+  color: #f8fafc;
+  margin-top: 15px;
+}
+
+.location {
+  font-family: 'Roboto';
+  font-size: 17px;
+  line-height: 25px;
+  margin: 0px;
+  color: #f8fafc;
+  margin-top: 3px;
+}

@@ -1,0 +1,105 @@
+/* Write your CSS here */
+.registration-status-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  width: 45%;
+  height: 100vh;
+}
+
+.view-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 92%;
+}
+
+.yet-to-register-image {
+  width: 92%;
+  max-width: 465px;
+}
+
+.register-description {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 0px;
+  color: #64748b;
+  margin-top: 50px;
+}
+
+.register-here-button {
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-weight: 550;
+  line-height: 1.5;
+  background-color: #0967d2;
+  width: 92%;
+  border: none;
+  border-radius: 8px;
+  margin-top: 50px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  text-align: center;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+}
+
+.registered-img {
+  width: 82%;
+  max-width: 100px;
+}
+
+.registered-heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 650;
+  line-height: 1.2;
+  margin: 0px;
+  text-align: center;
+  color: #323f4b;
+  margin-top: 42px;
+}
+
+.registrations-closed-image {
+  width: 85%;
+  max-width: 395px;
+}
+
+.registrations-closed-heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 650;
+  line-height: 1.2;
+  margin: 0px;
+  text-align: center;
+  color: #323f4b;
+  margin-top: 35px;
+}
+
+.registrations-closed-description {
+  font-family: 'Roboto';
+  font-size: 20px;
+  line-height: 1.7;
+  width: 62%;
+  margin: 0px;
+  text-align: center;
+  color: #475569;
+  margin-top: 17px;
+}
+.no-active-event-description {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 550;
+  line-height: 1.75;
+  margin: 0px;
+  margin-top: 65px;
+  margin-right: 17px;
+  text-align: center;
+  align-self: flex-start;
+  color: #64748b;
+  margin-left: 17px;
+}
